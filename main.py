@@ -1,14 +1,3 @@
-# trimmer_py
-
-https://blog.tottokug.com/entry/2017/12/09/233000
-
-
-こちらの記事を~パクリ~リスペクト.
-
-
-# Usage
-
-```python
 from score import search_max_score_tag
 from urllib import request
 
@@ -18,7 +7,5 @@ if __name__ == '__main__':
     url = 'http://teenssexandwarmode.hatenablog.com/entry/2018/10/10/042129'
     with request.urlopen(url) as f:
         html = f.read()
-        # bs4のobjectが返ってきます.
         tag = search_max_score_tag(html)
         print(tag.text)
-```
