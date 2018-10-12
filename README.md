@@ -9,7 +9,7 @@ https://blog.tottokug.com/entry/2017/12/09/233000
 # Usage
 
 ```python
-from score import search_max_score_tag
+from trimmer_py.trimmer_py import search_max_score_tag
 from urllib import request
 
 # テストコード
@@ -22,3 +22,4 @@ if __name__ == '__main__':
         tag = search_max_score_tag(html)
         print(tag.text)
 ```
+

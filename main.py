@@ -1,4 +1,4 @@
-from score import search_max_score_tag
+from trimmer_py.trimmer_py import search_max_score_tag 
 from urllib import request
 
 # テストコード
